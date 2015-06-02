@@ -12,7 +12,7 @@ body {
   background-size: cover;
 }
 .container {
-  padding: 100px;
+  padding-top: 100px;
   width: 960px;
   margin: 0 auto;
 }
@@ -150,6 +150,6 @@ h3 {
   padding: 10px;
   width: 25%;
 }
-* {
+*, *:before, *:after {
   box-sizing: inherit;
 }
