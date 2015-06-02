@@ -1,3 +1,6 @@
+html {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Open Sans', 'helvetica', arial, sans-serif;
   font-weight: 300;
@@ -122,4 +125,31 @@ h3 {
 }
 .info-section__description {
   font-style: italic;
+}
+.education-experience ul li {
+  list-style: none;
+  display: block;
+  overflow: hidden;
+  margin: 30px;
+}
+.education-experience ul li img {
+  float: left;
+  width: 180px;
+  height: auto;
+}
+.education-experience ul li h3 {
+  padding-left: 50px;
+  overflow: hidden;
+}
+.education-experience ul li p {
+  padding-left: 50px;
+  overflow: hidden;
+}
+.photos ul li img {
+  float: left;
+  padding: 10px;
+  width: 25%;
+}
+* {
+  box-sizing: inherit;
 }
