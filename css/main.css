@@ -116,9 +116,9 @@ h3 {
 .info-section header h2:after {
   display: block;
   width: 50px;
-  //text-align: center top;
   content: "";
   border-bottom: 3px solid black;
+  margin:0 auto;
 }
 .info-section__description {
   font-style: italic;
