@@ -158,6 +158,12 @@ h3 {
 ul.photos__list {
   overflow: hidden;
 }
+ul.get-in-touch__list {
+  overflow: hidden;
+}
+ul.whatido__skill-list {
+  overflow: hidden;
+}
 .get-in-touch ul li {
   text-align: center;
   float: left;
