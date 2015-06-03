@@ -155,6 +155,9 @@ h3 {
   padding: 10px;
   width: 25%;
 }
+ul.photos__list {
+  overflow: hidden;
+}
 .get-in-touch ul li {
   text-align: center;
   float: left;
