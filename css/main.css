@@ -1,6 +1,9 @@
 html {
   box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   font-family: 'Open Sans', 'helvetica', arial, sans-serif;
   font-weight: 300;
@@ -152,11 +155,39 @@ h3 {
   padding: 10px;
   width: 25%;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 .get-in-touch ul li {
   text-align: center;
   float: left;
   width: 25%;
+}
+.contact form {
+  position: relative;
+}
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  box-sizing: content-box;
+  margin-bottom: 15px;
+  width: 25%;
+}
+.contact label {
+  position: absolute;
+  float: left;
+  width: 35%;
+  text-align:right;
+}
+.contact button {
+  border: none;
+  border-radius: 9999px;
+  background-color: #ffd524;
+  cursor: pointer;
+  text-shadow: rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px #daae1d;
+  display: block;
+  margin: 0 auto;
+  width:25%;
 }
